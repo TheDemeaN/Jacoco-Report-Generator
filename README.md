@@ -65,7 +65,7 @@ java -jar ~/target/JaCoCo-report-generator-1.0.jar \
 --folder-name "SubFolder_Coverage" \
 --execution-run 1 \
 --cc-socket-port "8494" \
---out "/path/to/output/folder/" 
+--out "/path/to/output/folder" 
 
 
 ```
@@ -80,7 +80,7 @@ java -jar .\target\JaCoCo-report-generator-1.0.jar ^
 --folder-name "SubFolder_Coverage" ^
 --execution-run 1 ^
 --cc-socket-port "8494" ^
---out "\path\to\output\folder\"
+--out "\path\to\output\folder"
 
 
 ```
