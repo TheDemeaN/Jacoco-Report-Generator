@@ -64,7 +64,7 @@ java -jar ~/target/JaCoCo-report-generator-1.0.jar \
 --cc-socket-IP "192.168.1.10" \
 --folder-name "SubFolder_Coverage" \
 --execution-run 1 \
---cc-socket-port "8499" \
+--cc-socket-port "8494" \
 --out "/path/to/output/folder/" 
 
 
@@ -79,7 +79,7 @@ java -jar .\target\JaCoCo-report-generator-1.0.jar ^
 --cc-socket-IP "192.168.1.10" ^
 --folder-name "SubFolder_Coverage" ^
 --execution-run 1 ^
---cc-socket-port "8499" ^
+--cc-socket-port "8494" ^
 --out "\path\to\output\folder\"
 
 
