@@ -31,6 +31,8 @@ The JaCoCo documentation can be found [here](https://www.eclemma.org/jacoco/trun
 The *path to the JaCoCo agent* refers to the folder containing the jar for the JaCoCo agent, which you can download **[here](https://www.eclemma.org/jacoco/)**. And then run the project that you want to retrieve the code coverage. If your project is already in a runnable jar, then a simple syntax example is the following:
 `java -javaagent:path\to\Jacoco\jacocoagent.jar=includes=*,output=tcpserver,port=8494,address=127.0.0.1 -jar youProjectRunnableJar.jar`
 
+Next, you may run the *JaCoCo Report Generator* when it is time to retrieve the code coverage of your running project without needing to stop the JVM.
+
 ### Argument syntax:
 
 ```java
