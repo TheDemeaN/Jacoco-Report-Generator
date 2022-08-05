@@ -4,7 +4,7 @@
 
 The **JaCoCo agent** collects execution information and dumps it on request or when the JVM exits. 
 
-There are three different modes for execution data output, **the JaCoCo Report Generator extract the report** in real time through the TCP Socket Server which makes it possible to connect to the JVM and retrieve execution data over the socket connection **without needing to stop the JVM.**
+There are three different modes for the execution of data output. **The JaCoCo Report Generator extracts the report in real-time** through the TCP Socket Server, making it possible to connect to the JVM and retrieve execution data over the socket connection **without needing to stop the JVM**.
 
 
 ## Run as a Maven Project
