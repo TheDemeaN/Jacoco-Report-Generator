@@ -44,7 +44,7 @@ Next, you may run the *JaCoCo Report Generator* when it is time to retrieve the 
 | `cc-classes` | **String.** Path to the location relative to the working directory where all **class files** seen by the agent. *Example:* `"~/pathToYourProject/target/classes/"`  | ✓ |
 | `cc-source` | **String.** Path to the location relative to the working directory where all **java files** seen by the agent. *Example:* `"~/pathToYourProject/src/main/java/"`  | ✓ |
 | `cc-socket-IP` | **String.** IP address or hostname of the server that it is hosting the REST service, in order to extract the code coverage report from the JaCoCo agent.  *Default value:* `"127.0.0.1"`  | _ |
-| `cc-socket-port` | **String.** PORT of the server that it is hosting the REST service, in order to extract the code coverage report from the JaCoCo agent.   *Default value:* `8494` 
+| `cc-socket-port` | **String.** PORT of the server that it is hosting the REST service, in order to extract the code coverage report from the JaCoCo agent.   *Default value:* `8494` | _ | 
 | `execution-run` | **Integer.** The number that will name the sub-folder, this way it is possible to save multiple files without intercepting the name. *Default value*: `0` | _ |*Default value:* `"8494"`  | _ |
 | `folder-name` | **Boolean.** The name of the output's sub-folder. This way, when exporting code coverage simultaneously for multiple projects, the sub-folder may have a different name so that it will not intercept any path's name. *Default value:* `Coverage`  | _ |
 | `reset` | **Boolean.** Reset the code coverage data. If set to true, then after generating the report the socket is reseted, and, therefore coverage data is also reseted. *Default value:* `true`  | _ |
