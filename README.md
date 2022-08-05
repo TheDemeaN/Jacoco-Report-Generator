@@ -24,11 +24,11 @@ In your terminal execute the following commands:
 You can run the program as a **Maven project** (mvn clean install), with an **IDE** or even export to a **runnable Jar**.
 
 ### **Important note:** 
-In the project that you want to retrive the code coverage, in the JVM options you must use the JaCoCo agent in **tcpserver** mode. We give an example to facilitate: `-javaagent:path\to\Jacoco\jacocoagent.jar=includes=*,output=tcpserver,port=8494,address=127.0.0.1`
+In the project where the code coverage will be retrieved, the JaCoCo agent output must be in the **tcpserver** mode in the JVM options. We give an example to facilitate: `-javaagent:path\to\Jacoco\jacocoagent.jar=includes=*,output=tcpserver,port=8494,address=127.0.0.1`
 
 The JaCoCo documentation can be found [here](https://www.eclemma.org/jacoco/trunk/doc/agent.html).
 
-The path to the JaCoCo agent refers to the folder contain the jar for the JaCoCo agent where you can download **[here](https://www.eclemma.org/jacoco/)**. And then run the project that you want to retrieve the code coverage. If your project is already in a runnable jar, then a simple syntax example is the following:
+The *path to the JaCoCo agent* refers to the folder containing the jar for the JaCoCo agent, which you can download **[here](https://www.eclemma.org/jacoco/)**. And then run the project that you want to retrieve the code coverage. If your project is already in a runnable jar, then a simple syntax example is the following:
 `java -javaagent:path\to\Jacoco\jacocoagent.jar=includes=*,output=tcpserver,port=8494,address=127.0.0.1 -jar youProjectRunnableJar.jar`
 
 ### Argument syntax:
